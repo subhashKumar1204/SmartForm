@@ -1,0 +1,775 @@
+{
+    "dashboard" : {
+        "smartOptions" : [
+            {
+                "cellType" : "PageTitle",
+                "view" : "cellView",
+                "title" : "Apartment Inspection Form",
+                "cellObject" : {
+                    "titleLbl" : {
+                        "fontSize" : 14,
+                        "fontFamily" : "Futura-Semi Bold",
+                        "textColor" : "black",
+                        "backgroundColor" : "white",
+                        "maskToBounds" : true,
+                        "cornerRadius" : 10
+                    },
+                    "view" : "cellView",
+                    "cornerRadius" : 10,
+                    "maskToBounds" : true,
+                    "textfieldUserEnable" : false,
+                    "dropDownBtnEnable" : true,
+                    "backgroundColor" : "white"
+                }
+            },
+            {
+                "view" : "cellView",
+                "cellType" : "textField",
+                "title" : "Housing Provider",
+                "cellObject" : {
+                    "titleLbl" : {
+                        "fontSize" : 14,
+                        "fontFamily" : "Futura-Semi Bold",
+                        "textColor" : "black",
+                        "backgroundColor" : "white",
+                        "maskToBounds" : true,
+                        "cornerRadius" : 10
+                    },
+                    "fieldObject" : {
+                        "fontSize" : 17,
+                        "fontFamily" : "Futura-Semi Bold",
+                        "textColor" : "darkGray",
+                        "backgroundColor" : "white",
+                        "maskToBounds" : true,
+                        "cornerRadius" : 10,
+                        "inputType" : "AlphabetNumeric",
+                        "min" :  5,
+                        "max" : 50
+                    }
+                }
+            },
+            {
+                "view" : "cellView",
+                "cellType" : "textField",
+                "title" : "Occupant’s Name",
+                "cellObject" : {
+                    "titleLbl" : {
+                        "fontSize" : 14,
+                        "fontFamily" : "Futura-Semi Bold",
+                        "textColor" : "black",
+                        "backgroundColor" : "white",
+                        "maskToBounds" : true,
+                        "cornerRadius" : 10
+                    },
+                    "fieldObject" : {
+                        "fontSize" : 17,
+                        "fontFamily" : "Futura-Semi Bold",
+                        "textColor" : "darkGray",
+                        "backgroundColor" : "white",
+                        "maskToBounds" : true,
+                        "cornerRadius" : 10,
+                        "inputType" : "AlphabetNumeric",
+                        "min" :  5,
+                        "max" : 50
+                    }
+                }
+            },
+            {
+                "view" : "cellView",
+                "cellType" : "textField",
+                "title" : "Occupant’s Email",
+                "cellObject" : {
+                    "titleLbl" : {
+                        "fontSize" : 14,
+                        "fontFamily" : "Futura-Semi Bold",
+                        "textColor" : "black",
+                        "backgroundColor" : "white",
+                        "maskToBounds" : true,
+                        "cornerRadius" : 10
+                    },
+                    "fieldObject" : {
+                        "fontSize" : 17,
+                        "fontFamily" : "Futura-Semi Bold",
+                        "textColor" : "darkGray",
+                        "backgroundColor" : "white",
+                        "maskToBounds" : true,
+                        "cornerRadius" : 10,
+                        "inputType" : "AlphabetNumeric",
+                        "min" :  5,
+                        "max" : 50
+                    }
+                }
+            },
+            {
+                "view" : "cellView",
+                "cellType" : "textField",
+                "title" : "Occupant’s Mobile Number",
+                "cellObject" : {
+                    "titleLbl" : {
+                        "fontSize" : 14,
+                        "fontFamily" : "Futura-Semi Bold",
+                        "textColor" : "black",
+                        "backgroundColor" : "white",
+                        "maskToBounds" : true,
+                        "cornerRadius" : 10
+                    },
+                    "fieldObject" : {
+                        "fontSize" : 17,
+                        "fontFamily" : "Futura-Semi Bold",
+                        "textColor" : "darkGray",
+                        "backgroundColor" : "white",
+                        "maskToBounds" : true,
+                        "cornerRadius" : 10,
+                        "inputType" : "Numeric",
+                        "min" :  10,
+                        "max" : 10
+                    }
+                }
+            },
+
+            {
+                "view" : "cellView",
+                "cellType" : "textField",
+                "title" : "Occupant’s Address",
+                "cellObject" : {
+                    "titleLbl" : {
+                        "fontSize" : 14,
+                        "fontFamily" : "Futura-Semi Bold",
+                        "textColor" : "black",
+                        "backgroundColor" : "white",
+                        "maskToBounds" : true,
+                        "cornerRadius" : 10
+                    },
+                    "fieldObject" : {
+                        "fontSize" : 17,
+                        "fontFamily" : "Futura-Semi Bold",
+                        "textColor" : "darkGray",
+                        "backgroundColor" : "white",
+                        "maskToBounds" : true,
+                        "cornerRadius" : 10,
+                        "inputType" : "AlphabetNumeric",
+                        "min" :  5,
+                        "max" : 50
+                    }
+                }
+            },
+            {
+                "view" : "cellView",
+                "cellType" : "textField",
+                "title" : "Occupant’s City",
+                "cellObject" : {
+                    "titleLbl" : {
+                        "fontSize" : 14,
+                        "fontFamily" : "Futura-Semi Bold",
+                        "textColor" : "black",
+                        "backgroundColor" : "white",
+                        "maskToBounds" : true,
+                        "cornerRadius" : 10
+                    },
+                    "fieldObject" : {
+                        "fontSize" : 17,
+                        "fontFamily" : "Futura-Semi Bold",
+                        "textColor" : "darkGray",
+                        "backgroundColor" : "white",
+                        "maskToBounds" : true,
+                        "cornerRadius" : 10,
+                        "inputType" : "AlphabetNumeric",
+                        "min" :  5,
+                        "max" : 50
+                    }
+                }
+            },
+            {
+                "view" : "cellView",
+                "cellType" : "textField",
+                "title" : "Occupant’s Region",
+                "cellObject" : {
+                    "titleLbl" : {
+                        "fontSize" : 14,
+                        "fontFamily" : "Futura-Semi Bold",
+                        "textColor" : "black",
+                        "backgroundColor" : "white",
+                        "maskToBounds" : true,
+                        "cornerRadius" : 10
+                    },
+                    "fieldObject" : {
+                        "fontSize" : 17,
+                        "fontFamily" : "Futura-Semi Bold",
+                        "textColor" : "darkGray",
+                        "backgroundColor" : "white",
+                        "maskToBounds" : true,
+                        "cornerRadius" : 10,
+                        "inputType" : "AlphabetNumeric",
+                        "min" :  5,
+                        "max" : 50
+                    }
+                }
+            },
+            {
+                "view" : "cellView",
+                "cellType" : "textField",
+                "title" : "Occupant’s Postal/ Zip Code",
+                "cellObject" : {
+                    "titleLbl" : {
+                        "fontSize" : 14,
+                        "fontFamily" : "Futura-Semi Bold",
+                        "textColor" : "black",
+                        "backgroundColor" : "white",
+                        "maskToBounds" : true,
+                        "cornerRadius" : 10
+                    },
+                    "fieldObject" : {
+                        "fontSize" : 17,
+                        "fontFamily" : "Futura-Semi Bold",
+                        "textColor" : "darkGray",
+                        "backgroundColor" : "white",
+                        "maskToBounds" : true,
+                        "cornerRadius" : 10,
+                        "inputType" : "AlphabetNumeric",
+                        "min" :  5,
+                        "max" : 50
+                    }
+                }
+            },
+            {
+                "view" : "cellView",
+                "cellType" : "textField",
+                "title" : "Occupant’s Country",
+                "cellObject" : {
+                    "titleLbl" : {
+                        "fontSize" : 14,
+                        "fontFamily" : "Futura-Semi Bold",
+                        "textColor" : "black",
+                        "backgroundColor" : "white",
+                        "maskToBounds" : true,
+                        "cornerRadius" : 10
+                    },
+                    "fieldObject" : {
+                        "fontSize" : 17,
+                        "fontFamily" : "Futura-Semi Bold",
+                        "textColor" : "darkGray",
+                        "backgroundColor" : "white",
+                        "maskToBounds" : true,
+                        "cornerRadius" : 10,
+                        "inputType" : "AlphabetNumeric",
+                        "min" :  5,
+                        "max" : 50
+                    }
+                }
+            },
+            {
+                "cellType" : "PageTitle",
+                "view" : "cellView",
+                "title" : "Apartment Details",
+                "cellObject" : {
+                    "titleLbl" : {
+                        "fontSize" : 14,
+                        "fontFamily" : "Futura-Semi Bold",
+                        "textColor" : "black",
+                        "backgroundColor" : "white",
+                        "maskToBounds" : true,
+                        "cornerRadius" : 10
+                    },
+                    "view" : "cellView",
+                    "cornerRadius" : 10,
+                    "maskToBounds" : true,
+                    "textfieldUserEnable" : false,
+                    "dropDownBtnEnable" : true,
+                    "backgroundColor" : "white"
+                }
+            },
+            {
+                            "cellType" : "singleSelection",
+                            "view" : "cellView",
+                            "title" : "Select Apartment Type",
+                            "cellObject" : {
+                                "view" : "cellView",
+                                "cornerRadius" : 10,
+                                "maskToBounds" : true,
+                                "textfieldUserEnable" : false,
+                                "dropDownBtnEnable" : true,
+                                "dropDownIcon" : "dropDownIcon",
+                                "backgroundColor" : "white"
+                            },
+                            "options" : [
+                                {
+                                    "object" : "Studio Apartment"
+                                },
+                                {
+                                    "object" : "1 BHK"
+                                },
+                                {
+                                    "object" : "2 BHK"
+                                },
+                                {
+                                    "object" : "3 BHK"
+                                },
+                                {
+                                    "object" : "Other",
+                                    "inputType" : "text",
+                                    "cellObject" : {
+                                        "view" : "cellView",
+                                        "cellType" : "textField",
+                                        "title" : "Apartment",
+                                        "cellObject" : {
+                                            
+                                            "titleLbl" : {
+                                                "fontSize" : 14,
+                                                "fontFamily" : "Futura-Semi Bold",
+                                                "textColor" : "black",
+                                                "backgroundColor" : "white",
+                                                "maskToBounds" : true,
+                                                "cornerRadius" : 10
+                                            },
+                                            "fieldObject" : {
+                                                "fontSize" : 17,
+                                                "fontFamily" : "Futura-Semi Bold",
+                                                "textColor" : "darkGray",
+                                                "backgroundColor" : "white",
+                                                "maskToBounds" : true,
+                                                "cornerRadius" : 10
+                                            },
+                                            "validations" : [
+                                                {
+                                                    "value" : 4,
+                                                    "on_fail" : "Please enter valid text greater or equal to 4 charecter"
+                                                }
+                                            ]
+                                        }
+                                    }
+                                    
+                                }
+                            ]
+                        },
+            {
+                "cellType" : "PageTitle",
+                "view" : "cellView",
+                "title" : "Hallway/Vestibule",
+                "cellObject" : {
+                    "titleLbl" : {
+                        "fontSize" : 14,
+                        "fontFamily" : "Futura-Semi Bold",
+                        "textColor" : "black",
+                        "backgroundColor" : "white",
+                        "maskToBounds" : true,
+                        "cornerRadius" : 10
+                    },
+                    "view" : "cellView",
+                    "cornerRadius" : 10,
+                    "maskToBounds" : true,
+                    "textfieldUserEnable" : false,
+                    "dropDownBtnEnable" : true,
+                    "backgroundColor" : "white"
+                }
+            },
+            {
+                "cellType" : "multipleSelection",
+                "view" : "cellView",
+                "title" : "Check if the following are in a good state",
+                "cellObject" : {
+                    "view" : "cellView",
+                    "cornerRadius" : 10,
+                    "maskToBounds" : true,
+                    "textfieldUserEnable" : false,
+                    "dropDownBtnEnable" : true,
+                    "dropDownIcon" : "dropDownIcon",
+                    "backgroundColor" : "white"
+                },
+                "options" : [
+                    {
+                        "object" : "Ceiling/wall finishes & trimwork"
+                    },
+                    {
+                        "object" : "Flooring"
+                    },
+                    {
+                        "object" : "Electrical switches & outlets"
+                    },
+                    {
+                        "object" : "Light fixtures"
+                    },
+                    {
+                        "object" : "Closet doors, hardware, rod & shelf"
+                    },
+                    {
+                        "object" : "Smoke detector"
+                    },
+                    {
+                        "object" : "If Other List all deficiencies or comments",
+                        "inputType" : "text",
+                        "cellObject" : {
+                            "view" : "cellView",
+                            "cellType" : "textField",
+                            "title" : "Enter gender",
+                            "cellObject" : {
+                                
+                                "titleLbl" : {
+                                    "fontSize" : 14,
+                                    "fontFamily" : "Futura-Semi Bold",
+                                    "textColor" : "black",
+                                    "backgroundColor" : "white",
+                                    "maskToBounds" : true,
+                                    "cornerRadius" : 10
+                                },
+                                "fieldObject" : {
+                                    "fontSize" : 17,
+                                    "fontFamily" : "Futura-Semi Bold",
+                                    "textColor" : "darkGray",
+                                    "backgroundColor" : "white",
+                                    "maskToBounds" : true,
+                                    "cornerRadius" : 10
+                                },
+                                "validations" : [
+                                    {
+                                        "value" : 4,
+                                        "on_fail" : "Please enter valid text greater or equal to 4 charecter"
+                                    }
+                                ]
+                            }
+                        }
+                        
+                    }
+                ]
+            },
+            
+            {
+                "cellType" : "PageTitle",
+                "view" : "cellView",
+                "title" : "Kitchen",
+                "cellObject" : {
+                    "titleLbl" : {
+                        "fontSize" : 14,
+                        "fontFamily" : "Futura-Semi Bold",
+                        "textColor" : "black",
+                        "backgroundColor" : "white",
+                        "maskToBounds" : true,
+                        "cornerRadius" : 10
+                    },
+                    "view" : "cellView",
+                    "cornerRadius" : 10,
+                    "maskToBounds" : true,
+                    "textfieldUserEnable" : false,
+                    "dropDownBtnEnable" : true,
+                    "backgroundColor" : "white"
+                }
+            },
+            {
+                "cellType" : "multipleSelection",
+                "view" : "cellView",
+                "title" : "Check if the following are in a good state",
+                "cellObject" : {
+                    "view" : "cellView",
+                    "cornerRadius" : 10,
+                    "maskToBounds" : true,
+                    "textfieldUserEnable" : false,
+                    "dropDownBtnEnable" : true,
+                    "dropDownIcon" : "dropDownIcon",
+                    "backgroundColor" : "white"
+                },
+                "options" : [
+                    {
+                        "object" : "Ceiling/wall finishes & trimwork"
+                    },
+                    {
+                        "object" : "Flooring"
+                    },
+                    {
+                        "object" : "Electrical switches & outlets"
+                    },
+                    {
+                        "object" : "Light fixtures"
+                    },
+                    {
+                        "object" : "Range hood & filter"
+                    },
+                    {
+                        "object" : "Cabinets"
+                    },
+                    {
+                        "object" : "Counter tops"
+                    },
+                    {
+                        "object" : "Sink & strainer"
+                    },
+                    {
+                        "object" : "Faucet"
+                    },
+                    {
+                        "object" : "Stove"
+                    },
+                    {
+                        "object" : "Refrigerator"
+                    },
+                    {
+                        "object" : "Heating system"
+                    },
+                    {
+                        "object" : "Other Information and List all deficiencies or comments",
+                        "inputType" : "text",
+                        "cellObject" : {
+                            "view" : "cellView",
+                            "cellType" : "textField",
+                            "title" : "Information",
+                            "cellObject" : {
+                                
+                                "titleLbl" : {
+                                    "fontSize" : 14,
+                                    "fontFamily" : "Futura-Semi Bold",
+                                    "textColor" : "black",
+                                    "backgroundColor" : "white",
+                                    "maskToBounds" : true,
+                                    "cornerRadius" : 10
+                                },
+                                "fieldObject" : {
+                                    "fontSize" : 17,
+                                    "fontFamily" : "Futura-Semi Bold",
+                                    "textColor" : "darkGray",
+                                    "backgroundColor" : "white",
+                                    "maskToBounds" : true,
+                                    "cornerRadius" : 10
+                                },
+                                "validations" : [
+                                    {
+                                        "value" : 4,
+                                        "on_fail" : "Please enter valid text greater or equal to 4 charecter"
+                                    }
+                                ]
+                            }
+                        }
+                        
+                    }
+                ]
+            },
+            {
+                "cellType" : "PageTitle",
+                "view" : "cellView",
+                "title" : "General Information",
+                "cellObject" : {
+                    "titleLbl" : {
+                        "fontSize" : 14,
+                        "fontFamily" : "Futura-Semi Bold",
+                        "textColor" : "black",
+                        "backgroundColor" : "white",
+                        "maskToBounds" : true,
+                        "cornerRadius" : 10
+                    },
+                    "view" : "cellView",
+                    "cornerRadius" : 10,
+                    "maskToBounds" : true,
+                    "textfieldUserEnable" : false,
+                    "dropDownBtnEnable" : true,
+                    "backgroundColor" : "white"
+                }
+            },
+            {
+                "cellType" : "multipleSelection",
+                "view" : "cellView",
+                "title" : "Check if the following are in a good state",
+                "cellObject" : {
+                    "view" : "cellView",
+                    "cornerRadius" : 10,
+                    "maskToBounds" : true,
+                    "textfieldUserEnable" : false,
+                    "dropDownBtnEnable" : true,
+                    "dropDownIcon" : "dropDownIcon",
+                    "backgroundColor" : "white"
+                },
+                "options" : [
+                    {
+                        "object" : "Unit entrance doors & hardware"
+                    },
+                    {
+                        "object" : "Balcony/patio door, hardware, weatherstripping, glazing & insect screen"
+                    },
+                    {
+                        "object" : "Exterior light fixture"
+                    },
+                    {
+                        "object" : "Exterior GFCI outlet"
+                    },
+                    {
+                        "object" : "Intercom"
+                    },
+                    {
+                        "object" : "Fuse/breaker pane"
+                    },
+                
+                    {
+                        "object" : "Other Information",
+                        "inputType" : "text",
+                        "cellObject" : {
+                            "view" : "cellView",
+                            "cellType" : "textField",
+                            "title" : "Information",
+                            "cellObject" : {
+                                
+                                "titleLbl" : {
+                                    "fontSize" : 14,
+                                    "fontFamily" : "Futura-Semi Bold",
+                                    "textColor" : "black",
+                                    "backgroundColor" : "white",
+                                    "maskToBounds" : true,
+                                    "cornerRadius" : 10
+                                },
+                                "fieldObject" : {
+                                    "fontSize" : 17,
+                                    "fontFamily" : "Futura-Semi Bold",
+                                    "textColor" : "darkGray",
+                                    "backgroundColor" : "white",
+                                    "maskToBounds" : true,
+                                    "cornerRadius" : 10
+                                },
+                                "validations" : [
+                                    {
+                                        "value" : 4,
+                                        "on_fail" : "Please enter valid text greater or equal to 4 charecter"
+                                    }
+                                ]
+                            }
+                        }
+                        
+                    }
+                ]
+            },
+            {
+                "view" : "cellView",
+                "cellType" : "textField",
+                "title" : "Inspected By",
+                "cellObject" : {
+                    "titleLbl" : {
+                        "fontSize" : 14,
+                        "fontFamily" : "Futura-Semi Bold",
+                        "textColor" : "black",
+                        "backgroundColor" : "white",
+                        "maskToBounds" : true,
+                        "cornerRadius" : 10
+                    },
+                    "fieldObject" : {
+                        "fontSize" : 17,
+                        "fontFamily" : "Futura-Semi Bold",
+                        "textColor" : "darkGray",
+                        "backgroundColor" : "white",
+                        "maskToBounds" : true,
+                        "cornerRadius" : 10,
+                        "inputType" : "AlphabetNumeric",
+                        "min" :  5,
+                        "max" : 50
+                    }
+                }
+            },
+            {
+                "view" : "cellView",
+                "cellType" : "textField",
+                "title" : "Enter Email",
+                "cellObject" : {
+                    "titleLbl" : {
+                        "fontSize" : 14,
+                        "fontFamily" : "Futura-Semi Bold",
+                        "textColor" : "black",
+                        "backgroundColor" : "white",
+                        "maskToBounds" : true,
+                        "cornerRadius" : 10
+                    },
+                    "fieldObject" : {
+                        "fontSize" : 17,
+                        "fontFamily" : "Futura-Semi Bold",
+                        "textColor" : "darkGray",
+                        "backgroundColor" : "white",
+                        "maskToBounds" : true,
+                        "cornerRadius" : 10,
+                        "inputType" : "AlphabetNumeric",
+                        "min" :  5,
+                        "max" : 50
+                    }
+                }
+            },
+            {
+                "view" : "cellView",
+                "cellType" : "textField",
+                "title" : "Enter Mobile Number",
+                "cellObject" : {
+                    "titleLbl" : {
+                        "fontSize" : 14,
+                        "fontFamily" : "Futura-Semi Bold",
+                        "textColor" : "black",
+                        "backgroundColor" : "white",
+                        "maskToBounds" : true,
+                        "cornerRadius" : 10
+                    },
+                    "fieldObject" : {
+                        "fontSize" : 17,
+                        "fontFamily" : "Futura-Semi Bold",
+                        "textColor" : "darkGray",
+                        "backgroundColor" : "white",
+                        "maskToBounds" : true,
+                        "cornerRadius" : 10,
+                        "inputType" : "Numeric",
+                        "min" :  10,
+                        "max" : 10
+                    }
+                }
+            },
+            {
+                "view" : "cellView",
+                "cellType" : "textView",
+                "title" : "Enter Address",
+                "cellObject" : {
+                    "titleLbl" : {
+                        "fontSize" : 14,
+                        "fontFamily" : "Futura-Semi Bold",
+                        "textColor" : "black",
+                        "backgroundColor" : "white",
+                        "maskToBounds" : true,
+                        "cornerRadius" : 10
+                    },
+                    "fieldObject" : {
+                        "fontSize" : 17,
+                        "fontFamily" : "Futura-Semi Bold",
+                        "textColor" : "darkGray",
+                        "backgroundColor" : "white",
+                        "maskToBounds" : true,
+                        "cornerRadius" : 10,
+                        "inputType" : "AlphabetNumeric",
+                        "min" :  10,
+                        "max" : 300
+                    }
+                }
+            },
+            {
+                "view" : "cellView",
+                "cellType" : "disclamer",
+                "title" : "The Commissioner is not liable for any damages arising in contract, tort or otherwise from the use of or inability to use this site or any material contained in it, or from any action or decision taken as a result of using the site.\nThe materials on this site comprise the Information Commissioner's views; they do not constitute legal or other professional advice. You should consult your professional adviser for legal or other advice.",
+                "cellObject" : {
+                    "titleLbl" : {
+                        "fontSize" : 14,
+                        "fontFamily" : "Futura-Semi Bold",
+                        "textColor" : "black",
+                        "backgroundColor" : "white",
+                        "maskToBounds" : true,
+                        "cornerRadius" : 10
+                    }
+                    
+                }
+            },
+            {
+                "view" : "cellView",
+                "cellType" : "button",
+                "title" : "Submit",
+                "cellObject" : {
+                    "fieldObject" : {
+                        "fontSize" : 17,
+                        "fontFamily" : "Futura-Semi Bold",
+                        "textColor" : "darkGray",
+                        "backgroundColor" : "white",
+                        "maskToBounds" : true,
+                        "cornerRadius" : 10
+                    }
+                }
+            }
+            
+        ]
+    }
+}
+
+
+

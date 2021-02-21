@@ -3,27 +3,57 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8065A76B28530DFC54D6A37D /* Pods_SmartForm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AA455EFA60476A504E516E6 /* Pods_SmartForm.framework */; };
+		BF2EE9FF25D82A570049B178 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2EE9FE25D82A570049B178 /* DashboardViewController.swift */; };
+		BF2EEA0325D82A9E0049B178 /* AppConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2EEA0225D82A9E0049B178 /* AppConstant.swift */; };
+		BF2EEA0625D82AE90049B178 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2EEA0525D82AE90049B178 /* BaseViewController.swift */; };
+		BF2EEA0A25D82B9E0049B178 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2EEA0925D82B9D0049B178 /* Parser.swift */; };
+		BF2EEA0F25D82EEF0049B178 /* DashboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2EEA0E25D82EEF0049B178 /* DashboardViewModel.swift */; };
+		BF2EEA1325D8329C0049B178 /* SmartForm.json in Resources */ = {isa = PBXBuildFile; fileRef = BF2EEA1225D8329C0049B178 /* SmartForm.json */; };
+		BF2EEA1725D8399F0049B178 /* DashbordFormModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2EEA1625D8399F0049B178 /* DashbordFormModel.swift */; };
+		BF2EEA1B25D8429C0049B178 /* PageTitleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2EEA1A25D8429C0049B178 /* PageTitleCell.swift */; };
+		BF30FD7225D981C500C045C4 /* SingleFieldCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF30FD7125D981C500C045C4 /* SingleFieldCell.swift */; };
+		BF30FD7525D996C600C045C4 /* TitleSubTitleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF30FD7425D996C600C045C4 /* TitleSubTitleCell.swift */; };
+		BF30FD7825D99A7300C045C4 /* RadioButtomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF30FD7725D99A7300C045C4 /* RadioButtomCell.swift */; };
+		BF30FD7B25D9AE1300C045C4 /* SingleTextViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF30FD7A25D9AE1300C045C4 /* SingleTextViewCell.swift */; };
+		BF30FD7E25D9B0CA00C045C4 /* SingleButtonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF30FD7D25D9B0CA00C045C4 /* SingleButtonCell.swift */; };
+		BF346BC025DAB4A200CED228 /* OtherButtonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF346BBF25DAB4A200CED228 /* OtherButtonCell.swift */; };
+		BF346BC325DAC88E00CED228 /* ProtocolClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF346BC225DAC88E00CED228 /* ProtocolClass.swift */; };
+		BF38554125E2799000846E66 /* CheckButtomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF38554025E2799000846E66 /* CheckButtomCell.swift */; };
 		BF5E2C7C25D712590015D826 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5E2C7B25D712590015D826 /* AppDelegate.swift */; };
-		BF5E2C7E25D712590015D826 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5E2C7D25D712590015D826 /* SceneDelegate.swift */; };
-		BF5E2C8025D712590015D826 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5E2C7F25D712590015D826 /* ViewController.swift */; };
-		BF5E2C8325D712590015D826 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF5E2C8125D712590015D826 /* Main.storyboard */; };
 		BF5E2C8525D7125D0015D826 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF5E2C8425D7125D0015D826 /* Assets.xcassets */; };
 		BF5E2C8825D7125D0015D826 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF5E2C8625D7125D0015D826 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3BFCD028FD322D9BD7703906 /* Pods-SmartForm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartForm.release.xcconfig"; path = "Target Support Files/Pods-SmartForm/Pods-SmartForm.release.xcconfig"; sourceTree = "<group>"; };
+		8AA455EFA60476A504E516E6 /* Pods_SmartForm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmartForm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF2EE9FE25D82A570049B178 /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		BF2EEA0225D82A9E0049B178 /* AppConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstant.swift; sourceTree = "<group>"; };
+		BF2EEA0525D82AE90049B178 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		BF2EEA0925D82B9D0049B178 /* Parser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
+		BF2EEA0E25D82EEF0049B178 /* DashboardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewModel.swift; sourceTree = "<group>"; };
+		BF2EEA1225D8329C0049B178 /* SmartForm.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = SmartForm.json; sourceTree = "<group>"; };
+		BF2EEA1625D8399F0049B178 /* DashbordFormModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashbordFormModel.swift; sourceTree = "<group>"; };
+		BF2EEA1A25D8429C0049B178 /* PageTitleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageTitleCell.swift; sourceTree = "<group>"; };
+		BF30FD7125D981C500C045C4 /* SingleFieldCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleFieldCell.swift; sourceTree = "<group>"; };
+		BF30FD7425D996C600C045C4 /* TitleSubTitleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleSubTitleCell.swift; sourceTree = "<group>"; };
+		BF30FD7725D99A7300C045C4 /* RadioButtomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioButtomCell.swift; sourceTree = "<group>"; };
+		BF30FD7A25D9AE1300C045C4 /* SingleTextViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleTextViewCell.swift; sourceTree = "<group>"; };
+		BF30FD7D25D9B0CA00C045C4 /* SingleButtonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleButtonCell.swift; sourceTree = "<group>"; };
+		BF346BBF25DAB4A200CED228 /* OtherButtonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherButtonCell.swift; sourceTree = "<group>"; };
+		BF346BC225DAC88E00CED228 /* ProtocolClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolClass.swift; sourceTree = "<group>"; };
+		BF38554025E2799000846E66 /* CheckButtomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckButtomCell.swift; sourceTree = "<group>"; };
 		BF5E2C7825D712590015D826 /* SmartForm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartForm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF5E2C7B25D712590015D826 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BF5E2C7D25D712590015D826 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BF5E2C7F25D712590015D826 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BF5E2C8225D712590015D826 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BF5E2C8425D7125D0015D826 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF5E2C8725D7125D0015D826 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF5E2C8925D7125D0015D826 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0D31A0E33A9F334ED054AE7 /* Pods-SmartForm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartForm.debug.xcconfig"; path = "Target Support Files/Pods-SmartForm/Pods-SmartForm.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +61,79 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8065A76B28530DFC54D6A37D /* Pods_SmartForm.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D03B8063E539CE199D6AEE1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C0D31A0E33A9F334ED054AE7 /* Pods-SmartForm.debug.xcconfig */,
+				3BFCD028FD322D9BD7703906 /* Pods-SmartForm.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BF2EE9FD25D82A350049B178 /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BF2EE9FE25D82A570049B178 /* DashboardViewController.swift */,
+				BF2EEA0525D82AE90049B178 /* BaseViewController.swift */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
+		BF2EEA0125D82A890049B178 /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				BF2EEA0225D82A9E0049B178 /* AppConstant.swift */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		BF2EEA0825D82B900049B178 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				BF2EEA1225D8329C0049B178 /* SmartForm.json */,
+				BF2EEA0925D82B9D0049B178 /* Parser.swift */,
+				BF346BC225DAC88E00CED228 /* ProtocolClass.swift */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		BF2EEA0D25D82ECB0049B178 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				BF2EEA0E25D82EEF0049B178 /* DashboardViewModel.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		BF2EEA1925D841E70049B178 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				BF2EEA1A25D8429C0049B178 /* PageTitleCell.swift */,
+				BF30FD7125D981C500C045C4 /* SingleFieldCell.swift */,
+				BF30FD7425D996C600C045C4 /* TitleSubTitleCell.swift */,
+				BF30FD7725D99A7300C045C4 /* RadioButtomCell.swift */,
+				BF30FD7A25D9AE1300C045C4 /* SingleTextViewCell.swift */,
+				BF30FD7D25D9B0CA00C045C4 /* SingleButtonCell.swift */,
+				BF346BBF25DAB4A200CED228 /* OtherButtonCell.swift */,
+				BF38554025E2799000846E66 /* CheckButtomCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 		BF5E2C6F25D712590015D826 = {
 			isa = PBXGroup;
 			children = (
 				BF5E2C7A25D712590015D826 /* SmartForm */,
 				BF5E2C7925D712590015D826 /* Products */,
+				0D03B8063E539CE199D6AEE1 /* Pods */,
+				C74D03AB39099915670E879E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +148,26 @@
 		BF5E2C7A25D712590015D826 /* SmartForm */ = {
 			isa = PBXGroup;
 			children = (
+				BF2EEA1925D841E70049B178 /* Cell */,
+				BF2EEA0D25D82ECB0049B178 /* View Models */,
+				BF2EEA0825D82B900049B178 /* Resource */,
+				BF2EEA0125D82A890049B178 /* Constant */,
+				BF2EE9FD25D82A350049B178 /* View Controller */,
 				BF5E2C7B25D712590015D826 /* AppDelegate.swift */,
-				BF5E2C7D25D712590015D826 /* SceneDelegate.swift */,
-				BF5E2C7F25D712590015D826 /* ViewController.swift */,
-				BF5E2C8125D712590015D826 /* Main.storyboard */,
 				BF5E2C8425D7125D0015D826 /* Assets.xcassets */,
 				BF5E2C8625D7125D0015D826 /* LaunchScreen.storyboard */,
 				BF5E2C8925D7125D0015D826 /* Info.plist */,
+				BF2EEA1625D8399F0049B178 /* DashbordFormModel.swift */,
 			);
 			path = SmartForm;
+			sourceTree = "<group>";
+		};
+		C74D03AB39099915670E879E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8AA455EFA60476A504E516E6 /* Pods_SmartForm.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +177,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BF5E2C8C25D7125D0015D826 /* Build configuration list for PBXNativeTarget "SmartForm" */;
 			buildPhases = (
+				39718F99ED73FAA643BB9E9F /* [CP] Check Pods Manifest.lock */,
 				BF5E2C7425D712590015D826 /* Sources */,
 				BF5E2C7525D712590015D826 /* Frameworks */,
 				BF5E2C7625D712590015D826 /* Resources */,
+				26EE30A71AA621F14EF08924 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,36 +229,83 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF2EEA1325D8329C0049B178 /* SmartForm.json in Resources */,
 				BF5E2C8825D7125D0015D826 /* LaunchScreen.storyboard in Resources */,
 				BF5E2C8525D7125D0015D826 /* Assets.xcassets in Resources */,
-				BF5E2C8325D712590015D826 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		26EE30A71AA621F14EF08924 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SmartForm/Pods-SmartForm-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SmartForm/Pods-SmartForm-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SmartForm/Pods-SmartForm-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		39718F99ED73FAA643BB9E9F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SmartForm-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BF5E2C7425D712590015D826 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF5E2C8025D712590015D826 /* ViewController.swift in Sources */,
+				BF30FD7E25D9B0CA00C045C4 /* SingleButtonCell.swift in Sources */,
+				BF346BC325DAC88E00CED228 /* ProtocolClass.swift in Sources */,
+				BF2EEA0625D82AE90049B178 /* BaseViewController.swift in Sources */,
+				BF346BC025DAB4A200CED228 /* OtherButtonCell.swift in Sources */,
+				BF38554125E2799000846E66 /* CheckButtomCell.swift in Sources */,
+				BF2EEA0A25D82B9E0049B178 /* Parser.swift in Sources */,
+				BF2EE9FF25D82A570049B178 /* DashboardViewController.swift in Sources */,
+				BF2EEA0F25D82EEF0049B178 /* DashboardViewModel.swift in Sources */,
+				BF30FD7525D996C600C045C4 /* TitleSubTitleCell.swift in Sources */,
 				BF5E2C7C25D712590015D826 /* AppDelegate.swift in Sources */,
-				BF5E2C7E25D712590015D826 /* SceneDelegate.swift in Sources */,
+				BF2EEA1B25D8429C0049B178 /* PageTitleCell.swift in Sources */,
+				BF30FD7825D99A7300C045C4 /* RadioButtomCell.swift in Sources */,
+				BF2EEA1725D8399F0049B178 /* DashbordFormModel.swift in Sources */,
+				BF30FD7B25D9AE1300C045C4 /* SingleTextViewCell.swift in Sources */,
+				BF30FD7225D981C500C045C4 /* SingleFieldCell.swift in Sources */,
+				BF2EEA0325D82A9E0049B178 /* AppConstant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		BF5E2C8125D712590015D826 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BF5E2C8225D712590015D826 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		BF5E2C8625D7125D0015D826 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -283,6 +435,7 @@
 		};
 		BF5E2C8D25D7125D0015D826 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0D31A0E33A9F334ED054AE7 /* Pods-SmartForm.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -301,6 +454,7 @@
 		};
 		BF5E2C8E25D7125D0015D826 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BFCD028FD322D9BD7703906 /* Pods-SmartForm.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
