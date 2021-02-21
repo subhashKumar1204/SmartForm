@@ -109,7 +109,7 @@ class RadioButtomCell: UITableViewCell {
     func configureWithViewModel(with viewModel:RadioButtomCellViewModel, option : GenderOptionsModel?, updatedDSFormModel: DashbordFormModel?){
         self.viewModel = viewModel
         self.dict = option
-        self.titleLabel.text = option?.genderType as? String ?? ""
+        self.titleLabel.text = option?.genderType ?? ""
         self.updtDSFormModel?.rowValues = []
         self.updtDSFormModel = updatedDSFormModel
         if updatedDSFormModel?.options.count ?? 0 > 0 {
@@ -134,7 +134,7 @@ class RadioButtomCell: UITableViewCell {
             return
         }
         
-        var newViewModel = viewModel //// this is struct  its not a reference type its a value type
+        let newViewModel = viewModel //// this is struct  its not a reference type its a value type
 //        newViewModel.isBtnSelected = !(viewModel.isBtnSelected ?? false)
         
 //        buttonDelegate?.radioButtomTableViewCell(self, didtapWith: newViewModel)

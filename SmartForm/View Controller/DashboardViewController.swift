@@ -156,7 +156,7 @@ extension DashboardViewController : UITableViewDelegate, UITableViewDataSource {
                     
                     return cell
                 }else {
-                    let objects = (pgmodelView.options ?? []) as [GenderOptionsModel]
+                    let objects = (pgmodelView.options ) as [GenderOptionsModel]
                     if objects.count > 0 {
                         let row = indexPath.row
                         let dict = objects[row - 1] as GenderOptionsModel
@@ -202,7 +202,7 @@ extension DashboardViewController : UITableViewDelegate, UITableViewDataSource {
                     
                     return cell
                 }else {
-                    let objects = (pgmodelView.multi_options ?? []) as [MultipleOptionsModel]
+                    let objects = (pgmodelView.multi_options ) as [MultipleOptionsModel]
                     if objects.count > 0 {
                         let row = indexPath.row
                         let dict = objects[row - 1] as MultipleOptionsModel
@@ -290,13 +290,13 @@ extension DashboardViewController : UITableViewDelegate, UITableViewDataSource {
     
     func SingleButtonTableViewCell(_ cell: SingleButtonCell, didtapWith viewModel: SingleButtonCellViewModel, updatedDSFormModel: DashbordFormModel) {
         //let model = viewModel as DashbordFormModel
-        let dataArr =  self.viewModel?.dashbordFormArray as? [DashbordFormModel] ?? []
+        let dataArr =  self.viewModel?.dashbordFormArray ?? []
         var dataDict : Dictionary<String,AnyObject> = [:]
         for item in dataArr {
             if item.rowValues.count>0{
-                dataDict[item.title] = "\(item.rowValues as [String] ?? [])" as AnyObject
+                dataDict[item.title] = "\(item.rowValues as [String] )" as AnyObject
             }else{
-            dataDict[item.title] = "\(item.rowValue as String ?? "")" as AnyObject
+                dataDict[item.title] = "\(item.rowValue as String )" as AnyObject
             }
             
         }

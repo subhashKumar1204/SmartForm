@@ -107,7 +107,7 @@ class SingleButtonCell: UITableViewCell {
             return
         }
         
-        var newViewModel = viewModel //// this is struct  its not a reference type its a value type
+        let newViewModel = viewModel //// this is struct  its not a reference type its a value type
 //        newViewModel.isBtnSelected = !(viewModel.isBtnSelected ?? false)
         
 //        buttonDelegate?.radioButtomTableViewCell(self, didtapWith: newViewModel)

@@ -180,7 +180,7 @@ class OtherButtonCell: UITableViewCell {
         guard let viewModel = viewModel else {
             return
         }
-        var newViewModel = viewModel //// this is struct  its not a reference type its a value type
+        let newViewModel = viewModel //// this is struct  its not a reference type its a value type
 //        newViewModel.isBtnSelected = !(viewModel.isBtnSelected ?? false)
         prepareForReuse()
         var othoptions : [GenderOptionsModel] = []
@@ -228,7 +228,7 @@ class OtherButtonCell: UITableViewCell {
             otherField.isHidden = true
 
         }
-        otherField.tag = (tag ?? 0) - 1
+        otherField.tag = (tag ) - 1
         let tag = viewModel.viewIndex?.row
         self.button.tag =  (tag ?? 0) - 1
         self.button.addTarget(self, action: #selector(isCheckMultipleButtonClicked(_ :)), for: .touchUpInside)
